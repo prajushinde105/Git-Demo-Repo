@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test thread-count="5" name="ProductSearch(failed)">
+    <classes>
+      <class name="testsite.ProductSearchTest">
+        <methods>
+          <include name="searchProduct"/>
+          <include name="close"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testsite.ProductSearchTest -->
+    </classes>
+  </test> <!-- ProductSearch(failed) -->
+</suite> <!-- Failed suite [Suite] -->
